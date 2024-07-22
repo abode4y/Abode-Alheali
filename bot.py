@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # توكن البوت من Telegram
-TOKEN = '7149873557:AAHAPFqgB380RDwUcWp6bhdTq4cUCIBAoeU'
+TOKEN = '7149873557:AAHOby0ak_KSQFmoC5ndBFYycyqgyYsbhZc'
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('Hello! I am your bot.')
